@@ -99,5 +99,46 @@ When this attack is successfully executed, this attack leads to significant valu
 - Reduced user trust due to inconsistent minting rates
 - Potential for cascading liquidations if leveraged positions are affected
 
+### [Medium-01] The excess amount in the preDeposit::_deposit() is not returned back to the user
 
+**Summary**
+The _deposit() function inside the preDeposit contract allows an amount to be deposited on behalfOf. When the deposit exceeds the reserve cap (reserveCap), the function silently reduces the amount to fit within the cap. However, the excess portion of the deposit is neither processed nor refunded.
+
+**Root cause**
+https://github.com/sherlock-audit/2024-12-plaza-finance/blob/main/plaza-evm/src/PreDeposit.sol#L118
+```javascript
+  function _deposit(uint256 amount, address onBehalfOf) private checkDepositStarted checkDepositNotEnded {
+    if (reserveAmount >= reserveCap) revert DepositCapReached();
+
+    address recipient = onBehalfOf == address(0) ? msg.sender : onBehalfOf;
+
+    // if user would like to put more than available in cap, fill the rest up to cap and add that to reserves
+    if (reserveAmount + amount >= reserveCap) { 
+      amount = reserveCap - reserveAmount;
+    }
+
+    balances[recipient] += amount;
+    reserveAmount += amount;
+    IERC20(params.reserveToken).safeTransferFrom(msg.sender, address(this), amount);
+    emit Deposited(recipient, amount);
+  }
+```
+However, the function does not handle scenario where the user sends more amount leading to overdeposit. This could result in the financial losses for users if they mistakenly send more amount.
+While the function alows user to put more than available in cap.
+
+**Attack path**
+when the deposit exceeds the reservecap, the function silently reduces the amount to fit within the cap. however, the excess portion of the deposit is neither processed nor refunded
+Example:
+
+- Reserve cap: 6000
+- Current reserve amount: 3000
+- User attempts to deposit: 5000
+- Adjusted deposit amount: 3000 (to fill the cap)
+- Excess: 2000 (ignored without refund)
+
+**Impact**
+Users who send more amount will not receive a refund for the excess amount
+
+**Mitigation**
+After performing the reserveCap id deducted from the reserveAmount, the excess amount should be calculated and return any excess amount back to the user.
 
