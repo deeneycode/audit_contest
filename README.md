@@ -14,6 +14,5 @@ for collabs or security audits reach out on X @dejiolaniyannn
 ### Cantina
 | Contest | Category | Language | Report |
 | -------- | ------- |  -------- | -------- | 
-| [BadgerDAO]() | Liquid Staking Governance Token | Solidity | [source](contests/Tally.md) |
-| [BadgerDAO](https://cantina.xyz/competitions/f57ffb47-0ded-4f04-bcec-ecd7d47fad58) | DeFi | Solidity | [source](contests/BadgerDAO.md)|
+| [BadgerDAO](https://cantina.xyz/competitions/f57ffb47-0ded-4f04-bcec-ecd7d47fad58) | DeFi | Solidity | [source](contest/BadgerDAO.md)|
 | [StabilityDAO](https://cantina.xyz/competitions/e1c0be8d-0c3d-485a-a446-a582beb120b1) | Yield Aggregator  | Solidity | [source](contests/stability.md) |
