@@ -20,4 +20,4 @@ for collabs or security audits reach out on X @dejiolaniyannn
 ### Code4rena
 | Contest | Category | Language | Report |
 | -------- | ------- |  -------- | -------- |
-| [Next Generation](https://code4rena.com/audits/2025-01-next-generation) |  | Solidity | [source](contest/Next Generation.md) |
+| [Next Generation](https://code4rena.com/audits/2025-01-next-generation) |  | Solidity | [source](contest/NextGeneration.md) |
