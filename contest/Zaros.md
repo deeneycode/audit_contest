@@ -1,5 +1,5 @@
-## Plaza Finance
-[Contest Details] (https://audits.sherlock.xyz/contests/682/report)
+## Zaros Part 2
+[Contest Details] (https://codehawks.cyfrin.io/c/2025-01-zaros-part-2/results?lt=contest&page=1&sc=reward&sj=reward&t=report)
 
 ### [High-01] Incorrect credit capacity checks in the `VaultRouterBranch::redeem` allows for over withdraw the vault
 
