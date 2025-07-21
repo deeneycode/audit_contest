@@ -21,3 +21,8 @@ for collabs or security audits reach out on X @dejiolaniyannn
 | Contest | Category | Language | Report |
 | -------- | ------- |  -------- | -------- |
 | [Next Generation](https://code4rena.com/audits/2025-01-next-generation) |  | Solidity | [source](contest/NextGeneration.md) |
+
+### Codehawks
+| Contest | Category | Language | Report |
+| -------- | ------- |  -------- | --------
+| [Part 2 Zaros](https://codehawks.cyfrin.io/c/2025-01-zaros-part-2) | DEX | Solidity | [source](contest/Zaros.md) |
