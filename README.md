@@ -10,6 +10,7 @@ for collabs or security audits reach out on X [@dejiolaniyannn] (https://x.com/d
 | Contest | Category | Language | Report |
 | -------- | ------- |  -------- | --------
 | [Plaza Finance](https://audits.sherlock.xyz/contests/682/report) | The Public Square for Bonds and Leverage on Base | Solidity | [source](contest/PlazaFinance.md) |
+| [Mellow Flexible Vaults](https://audits.sherlock.xyz/contests/964/report) | Mellow is modular vault infrastructure built for institutional-grade asset management on EVM chains.| Solidity | [source](contest/MellowFlexibleVault.md) |
 
 ### Cantina
 | Contest | Category | Language | Report |
