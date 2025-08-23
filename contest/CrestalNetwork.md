@@ -1,4 +1,4 @@
-## Unrestricted Access to payWithERC20 Allows Arbitrary Token Transfers and Accounting Discrepancies
+## [Medium-01] Unrestricted Access to payWithERC20 Allows Arbitrary Token Transfers and Accounting Discrepancies
 ## Summary
 The payWithERC20 function is publicly accessible and lacks proper authorization checks, enabling malicious actors to transfer tokens from any address that has granted approval to the contract. This bypasses admin-controlled token allowlists and creates inconsistencies between actual token balances and internal accounting userTopUpMp in the BlueprintCore contract.
 
