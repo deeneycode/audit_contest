@@ -1,4 +1,7 @@
-## Unconditional lastUpdated advance in RangePool.sync leads to loss of streamed BMX when pool liquidity == 0
+## BMX Deli Swap
+[Contest Details] (https://audits.sherlock.xyz/contests/1154/report)
+
+### [Medium-01] Unconditional lastUpdated advance in RangePool.sync leads to loss of streamed BMX when pool liquidity == 0
 
 ## Summary
 A logic ordering issue in RangePool::sync causes the pool's lastUpdated timestamp to advance even when liquidity == 0. If the gauge consumes its N+2 day-bucket during a period with zero active liquidity, the streamed BMX is never credited to the pool's rewards-per-liquidity accumulator and therefore cannot be claimed later, even after liquidity returns. The tokens remain in the gauge contract balance but are unreachable by LP positions.
