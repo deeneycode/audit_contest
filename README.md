@@ -2,7 +2,10 @@
 
 ## About deeney
 I'm an independent Security Reasearcher competing on Cantina, Code4arena, Sherlock and Codehawks. I am skilled on Solidity and Rust. I specialize on security vulnerability on blockchain protocol.
-for collabs or security audits reach out on X [@dejiolaniyannn] (https://x.com/dejiolaniyannn)
+for collabs or security audits reach out on X [@dejiolaniyannn](https://x.com/dejiolaniyannn)
+Below is my audit profile page for public contest;
+
+(https://audits.sherlock.xyz/watson/makeWeb3safe)
 
 ## Contests
 
@@ -10,6 +13,8 @@ for collabs or security audits reach out on X [@dejiolaniyannn] (https://x.com/d
 | Contest | Category | Language | Report |
 | -------- | ------- |  -------- | --------
 | [Plaza Finance](https://audits.sherlock.xyz/contests/682/report) | The Public Square for Bonds and Leverage on Base | Solidity | [source](contest/PlazaFinance.md) |
+| [Mellow Flexible Vaults](https://audits.sherlock.xyz/contests/964/report) | Mellow is modular vault infrastructure built for institutional-grade asset management on EVM chains.| Solidity | [source](contest/MellowFlexibleVault.md) |
+| [BMX Deli Swap](https://audits.sherlock.xyz/contests/1154/report) | BMX is a DeFi ecosystem designed to address a core challenge for long-term users and liquidity providers | Solidity | [source](contest/BMXDeliSwap.md) |
 
 ### Cantina
 | Contest | Category | Language | Report |
