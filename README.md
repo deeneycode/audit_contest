@@ -27,6 +27,7 @@ Below is my audit profile page for public contest;
 | Contest | Category | Language | Report |
 | -------- | ------- |  -------- | -------- |
 | [Next Generation](https://code4rena.com/audits/2025-01-next-generation) |  | Solidity | [source](contest/NextGeneration.md) |
+| [Sequence](https://code4rena.com/audits/2025-10-sequence) | Modular crypto infrastructure stack that unifies wallets, 1-click cross-chain transactions, and real-time data. | Solidity | [source](contest/Sequence.md) |
 
 ### Codehawks
 | Contest | Category | Language | Report |
