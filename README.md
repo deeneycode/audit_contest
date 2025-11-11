@@ -15,7 +15,7 @@ Below is my audit profile page for public contest;
 | [Plaza Finance](https://audits.sherlock.xyz/contests/682/report) | The Public Square for Bonds and Leverage on Base | Solidity | [source](contest/PlazaFinance.md) |
 | [Mellow Flexible Vaults](https://audits.sherlock.xyz/contests/964/report) | Mellow is modular vault infrastructure built for institutional-grade asset management on EVM chains.| Solidity | [source](contest/MellowFlexibleVault.md) |
 | [BMX Deli Swap](https://audits.sherlock.xyz/contests/1154/report) | BMX is a DeFi ecosystem designed to address a core challenge for long-term users and liquidity providers | Solidity | [source](contest/BMXDeliSwap.md) |
-| [Super DCA Liquid Network](https://audits.sherlock.xyz/contests/1171/report) | Super DCA Liquidity Network, powered by Uniswap V4 Hooks. It focuses on the security and economic soundness of the contract suite coordinating dynamic fees, emitting DCA tokens using a Curve-style gauge, and locking liquidity when new tokens are listed. | Solidity | [source](contest/SuperDCALiquidNetwork.md) |
+| [Super DCA Liquid Network](https://audits.sherlock.xyz/contests/1171/report) | Super DCA Liquidity Network, powered by Uniswap V4 Hooks. It focuses on the security and economic soundness of the contract suite coordinating dynamic fees, emitting DCA tokens using a Curve-style gauge, and locking liquidity when new tokens are listed. | Solidity | [source](contest/SuperDCALiquidityNetwork.md) |
 
 ### Cantina
 | Contest | Category | Language | Report |
