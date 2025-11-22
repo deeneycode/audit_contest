@@ -1,5 +1,5 @@
 ## Next Generation
-[Contest Details] ()
+[Contest Details] (https://code4rena.com/reports/2025-10-sequence)
 
 ### [Medium-01] Missing wallet binding in session call hash enables cross-wallet replay of session signatures
 
