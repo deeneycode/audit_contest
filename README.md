@@ -1,6 +1,6 @@
-# audit_contest
+# Audit Portfolio
 
-## About deeney
+## About Me
 ## Deeney | Security Researcher
 Independent Web3 Security Researcher focused on securing DeFi, Cross-chain infrastructure, and Token standards.
 
@@ -11,7 +11,7 @@ Technical Expertise
 - Focus Areas: AMMs (CLMM), Cross-chain Messaging, Liquid Staking/Vesting, Account Abstraction, DEX
 
 Profiles
-- (Sherlock(@makeWeb3safe)[https://audits.sherlock.xyz/watson/makeWeb3safe]
+- [Sherlock(@makeWeb3safe)](https://audits.sherlock.xyz/watson/makeWeb3safe)
 
 Below is my audit profile page for public contest;
 
