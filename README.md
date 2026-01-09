@@ -28,6 +28,8 @@ Below is my audit profile page for public contest;
 | [Mellow Flexible Vaults](https://audits.sherlock.xyz/contests/964/report) | Modular Vault and Asset Management | Solidity | [source](contest/MellowFlexibleVault.md) |
 | [BMX Deli Swap](https://audits.sherlock.xyz/contests/1154/report) | DeFi | Solidity | [source](contest/BMXDeliSwap.md) |
 | [Super DCA Liquid Network](https://audits.sherlock.xyz/contests/1171/report) | Liquidity Network | Solidity | [source](contest/SuperDCALiquidityNetwork.md) |
+| [Index Fun Order Book](https://audits.sherlock.xyz/contests/1197) | Prediction Market | Solidity | [source](contest/IndexFunOrderBook.md) |
+| [stNXM by EaseDeFi](https://audits.sherlock.xyz/contests/1203?filter=results) | DeFi | Solidity | [source](contest/stNXMEaseDeFi.md) |
 
 ### Cantina
 | Contest | Category | Language | Report |
