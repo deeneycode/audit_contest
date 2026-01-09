@@ -15,9 +15,6 @@ Profiles
 - [Code4arena(@deeney)](https://code4rena.com/@deeney)
 - [Codehawks(@deeney)]
 - [Cantina(@deeney)](https://cantina.xyz/u/deeney)
-Below is my audit profile page for public contest;
-
-(https://audits.sherlock.xyz/watson/makeWeb3safe)
 
 ## Contests
 
