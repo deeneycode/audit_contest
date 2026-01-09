@@ -1,8 +1,18 @@
 # audit_contest
 
 ## About deeney
-I'm an independent Security Reasearcher competing on Cantina, Code4arena, Sherlock and Codehawks. I am skilled on Solidity and Rust. I specialize on security vulnerability on blockchain protocol.
-for collabs or security audits reach out on X [@dejiolaniyannn](https://x.com/dejiolaniyannn)
+## Deeney | Security Researcher
+Independent Web3 Security Researcher focused on securing DeFi, Cross-chain infrastructure, and Token standards.
+
+Top-tier contributor on Sherlock, Code4rena, Codehawk, and Cantina with multiple podium finishes.
+
+Technical Expertise
+- Languages: Solidity, Rust (Basic)
+- Focus Areas: AMMs (CLMM), Cross-chain Messaging, Liquid Staking/Vesting, Account Abstraction, DEX
+
+Profiles
+- (Sherlock(@makeWeb3safe)[https://audits.sherlock.xyz/watson/makeWeb3safe]
+
 Below is my audit profile page for public contest;
 
 (https://audits.sherlock.xyz/watson/makeWeb3safe)
