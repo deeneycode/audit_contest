@@ -44,3 +44,8 @@ Profiles
 | Contest | Category | Language | Report |
 | -------- | ------- |  -------- | --------
 | [Part 2 Zaros](https://codehawks.cyfrin.io/c/2025-01-zaros-part-2) | DEX | Solidity | [source](contest/Zaros.md) |
+
+### Dualguard
+| Contest | Category | Language | Report |
+| -------- | ------- |  -------- | -------- |
+| [Alignerz](https://github.com/dualguard/2025-11-judging-alignerz/tree/main/results/valid) | Token launchpad | Solidity | [📁](https://github.com/dualguard/2025-11-judging-alignerz/blob/main/results/valid/highs/H-5/High-000527-deeneycode.md) [📁](https://github.com/dualguard/2025-11-judging-alignerz/blob/main/results/valid/highs/H-3/High-000526-deeneycode.md) [📁](https://github.com/dualguard/2025-11-judging-alignerz/blob/main/results/valid/mediums/M-3/Medium-000525-deeneycode.md) [📁]() |
