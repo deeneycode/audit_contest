@@ -39,6 +39,7 @@ Profiles
 | -------- | ------- |  -------- | -------- |
 | [Next Generation](https://code4rena.com/audits/2025-01-next-generation) | Cross chain payment | Solidity | [source](contest/NextGeneration.md) |
 | [Sequence](https://code4rena.com/audits/2025-10-sequence) | Smart wallet | Solidity | [source](contest/Sequence.md) |
+| [Brix Money](https://code4rena.com/audits/2025-11-brix-money) | DeFi, Yield and Staking | Solidity | [📁](https://code4rena.com/audits/2025-11-brix-money/submissions/S-261) |
 
 ### Codehawks
 | Contest | Category | Language | Report |
