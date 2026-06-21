@@ -29,11 +29,12 @@ Profiles
 | [stNXM by EaseDeFi](https://audits.sherlock.xyz/contests/1203?filter=results) | DeFi | Solidity | [source](contest/stNXMEaseDeFi.md) |
 
 ### Cantina
-| Contest | Category | Language | Report |
-| -------- | ------- |  -------- | -------- | 
-| [BadgerDAO](https://cantina.xyz/competitions/f57ffb47-0ded-4f04-bcec-ecd7d47fad58) | DeFi | Solidity | [source](contest/BadgerDAO.md)|
-| [StabilityDAO](https://cantina.xyz/competitions/e1c0be8d-0c3d-485a-a446-a582beb120b1) | Yield Aggregator  | Solidity | [source](contest/stability.md) |
-| [Revert Finance-Stableswap hooks](https://cantina.xyz/code/e55ee7b9-6c99-42f8-8338-39f3dd134ef3/overview) | Stableswap hooks, UniswapV4  | Solidity | [findings](https://cantina.xyz/code/e55ee7b9-6c99-42f8-8338-39f3dd134ef3/findings/326) |
+| Contest | Category | Language | Validity | Report |
+| -------- | ------- |  -------- | -------- | -------- |
+| [BadgerDAO](https://cantina.xyz/competitions/f57ffb47-0ded-4f04-bcec-ecd7d47fad58) | DeFi | Solidity | Medium | [source](contest/BadgerDAO.md)|
+| [StabilityDAO](https://cantina.xyz/competitions/e1c0be8d-0c3d-485a-a446-a582beb120b1) | Yield Aggregator  | Solidity | Medium | [source](contest/stability.md) |
+| [Revert Finance-Stableswap hooks](https://cantina.xyz/code/e55ee7b9-6c99-42f8-8338-39f3dd134ef3/overview) | Stableswap hooks, UniswapV4  | Solidity | Medium | [findings](https://cantina.xyz/code/e55ee7b9-6c99-42f8-8338-39f3dd134ef3/findings/326) |
+| [Reserve governor](https://cantina.xyz/code/980a5976-9a7d-4014-b2e1-c248b4c6fa44/overview) | Governance | Solidity | Low | [findings](https://cantina.xyz/code/980a5976-9a7d-4014-b2e1-c248b4c6fa44/findings/292) |
 
 
 ### Code4rena
